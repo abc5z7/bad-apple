@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="badApple:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/badApple_jar</output-path>
+    <root id="archive" name="badApple.jar">
+      <element id="module-output" name="badApple" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../JLayer1.0.1/jl1.0.1.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
