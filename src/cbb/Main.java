@@ -1,7 +1,5 @@
 package cbb;
 
-import javazoom.jl.player.Player;
-
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -25,7 +23,7 @@ public class Main extends JFrame { // 在一个JFrame框架中显示出来，而
     private Timer timer = new Timer(125, new TimerListener());
 
     // 用来装载每一帧图片的Vector容器，Vector<String>说明里面装的是String(字符串)
-    private Vector<String> pictures = new Vector<String>();
+    private Vector<String> pictures = new Vector<>();
 
     // 帧数计算器，在TimerListener类中会用到
     private int count = 0;
